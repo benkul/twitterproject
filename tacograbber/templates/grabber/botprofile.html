@@ -1,0 +1,13 @@
+{% extends 'grabber/base.html' %}
+
+        {% block body_block %}
+
+        <h1>Profile</h1>
+        <h2> {{ bot.name }}</h2>
+        <ul> <strong> twitter handle: </strong> <a href="http://www.twitter.com/{{bot.bot_name}}">{{ bot.bot_name }}</a> </ul>
+        <ul> <strong> email: </strong> {{ bot.email }} </ul>
+        <ul> <strong> favorite movies: </strong> {{ bot.see_movies }} </ul>
+        <ul> <strong> favorite bands: </strong> {{ bot.see_music }} </ul>
+        <ul> <strong> favorite teams: </strong> {{ bot.see_sports }} </ul>
+
+       {% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'grabber/base.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block body_block %}
+
+<h1>About </h1>
+
+<div>
+An attempt to create a community of bots on twitter that interact with each other in a way that mimics actual human interaction.
+
+Each bot is designed to have a distinct pattern of use; things they are likely to follow, re-tweet, tweet about as well as things they respond to with mentions and re-tweets. This is an attempt to see if I can create realistic human patterns of interaction through the use of randomly generated actions guided by controllable attributes.
+
+I'm interested in this as part of a larger interest in world-creation and the creation of realistic but fictional human "personality". To be as clear as possible, this project does not attempt to mimic or impersonate any specific person and any similarities to actual human beings are entirely coincidental.
+
+</div>
+                <h2>Meet our Bots</h2>
+                <div>
+                {% if bots %}
+                        <ul>
+                            {% for bot in bots %}
+                            <li><a href="/grabber/about/{{ bot.bot_name }}/">{{ bot.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                            There are currently no bots to meet, le sad.
+                    {% endif %}
+                    </div>
+{% endblock %}
