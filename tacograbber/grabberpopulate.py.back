@@ -1,0 +1,135 @@
+import os
+
+bot_names = [
+"Emily Clark", 
+"Hannah Barnes", 
+"Maddie Foster",
+"Jennifer Thompson", 
+"Alex Webb",
+"Sarah Garcia",
+"Haley Crawford", 
+"Noah Taylor",
+"Jacob Walker",
+"Brandon Stevens",
+"Jordan Adams",
+"Tyler Reed",
+]
+twitter_handle = [
+"emilyquark",
+"barnesonbass",
+"mstacos",
+"Jennifer Thompson", 
+"Alex Webb",
+"Sarah Garcia",
+"Haley Crawford", 
+"Noah Taylor",
+"Jacob Walker",
+"Brandon Stevens",
+"Jordan Adams",
+"Tyler Reed",
+]
+
+movie_seeds = [
+    ("emilyquark", "Jurassic Park", "Inception", "Seven Samurai"),
+    ("barnesonbass", "SLC Punk", "Sid & Nancy", "Repo Man"),
+    ("mstacos", "Paul", "Hot Fuzz", "Shaun of the Dead"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3"),
+    ("name", "movie1", "movie2", "movie3")
+   ]
+
+music_seeds = [
+    ("emilyquark", "Jurassic Park", "Inception", "Seven Samurai"),
+    ("barnesonbass", "SLC Punk", "Sid & Nancy", "Repo Man"),
+    ("mstacos", "Paul", "Hot Fuzz", "Shaun of the Dead"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3"),
+    ("name", "music1", "music2", "music3")
+   ]
+
+sports_seeds = [
+    ("emilyquark", "Jurassic Park", "Inception", "Seven Samurai"),
+    ("barnesonbass", "SLC Punk", "Sid & Nancy", "Repo Man"),
+    ("mstacos", "Paul", "Hot Fuzz", "Shaun of the Dead"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3"),
+    ("name", "sports1", "sports2", "sports3")
+   ]
+
+def populate():
+    for item in movie_seeds:
+        add_movie_seed(name=movie_seeds[0],
+                       movie1=movie_seeds[1],
+                       movie2=movie_seeds[2],
+                       movie3=movie_seeds[3])
+
+
+    for i, item in enumerate(twitter_handle):
+        add_music_seed(name=twitter_handle[i],
+                       music1="Mumford & Sons",
+                       music2="The Ramones",
+                       music3="Slayer")
+
+    for i, item in enumerate(twitter_handle):
+        add_sports_seed(name=twitter_handle[i],
+                       music1="Chicago Cubs",
+                       music2="Portland Timbers",
+                       music3="Seattle Seahawks")
+
+    for i, bot in enumerate(bot_names):
+        add_bot(name=bot[i],
+                api ="",
+                api_secret = "",
+                oauth_token = "temp",
+                oauth_secret = "temp",
+                bot_name = twitter_handle[i], #twitterhandle
+                movie_seed=movie_seed,
+                music_seed=music_seed[i],
+                sports_seed=sports_seed[i])
+
+
+    #add_page(cat=python_cat,
+    #   title="Official Python Tutorial",
+    #    url="http://docs.python.org/2/tutorial/")
+
+def movie_seeder:
+    for item in movie_seeds:
+        X = Movie_Seed.get_or_crete(name=item[0], movie1=item[1], movie2=item[2], movie3=item[3])[0]
+        return X
+
+def music_seeder:
+    for item in music_seeds:
+        X = Music_Seed.get_or_crete(name=item[0], music1=item[1], music2=item[2], music3=item[3])[0]
+        return X
+
+def sports_seeder:
+    for item in sports_seeds:
+        X = Sports_Seed.get_or_crete(name=item[0], sport1=item[1], sport2=item[2], sport3=item[3])[0]
+        return X
+
+
+
+# Start execution here!
+if __name__ == '__main__':
+    print "Starting Grabber population script..."
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tacograbber.settings')
+    from grabber.models import Bot, Movie_Seed, Music_Seed, Sports_Seed
+    populate()
