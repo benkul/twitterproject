@@ -19,7 +19,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^twython/', include('twython_django_oauth.urls')),
     url(r'^post_tweet/$', views.create_tweet, name="create_tweet"),
-    url(r'^get_tokens/$', views.thanks, name="thanks"),
+
 )
 
 #if settings.DEBUG:
