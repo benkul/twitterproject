@@ -10,16 +10,16 @@ urlpatterns = patterns('twython_django_oauth.views',
     url(r'^login/?$', "begin_auth", name="twitter_login"),
 
     # Logout, if need be
-    url(r'^logout/?$', "logout", name="twitter_logout"),  # Calling logout and what not
+    #url(r'^logout/?$', "logout", name="twitter_logout"),  # Calling logout and what not
 
     # This is where they're redirected to after authorizing - we'll
     # further (silently) redirect them again here after storing tokens and such.
-    url(r'^thanks/?$', "thanks", name="twitter_callback"),
+    #url(r'^thanks/?$', "thanks", name="twitter_callback"),
 
     # An example view using a Twython method with proper OAuth credentials. Clone
     # this view and url definition to get the rest of your desired pages/functionality.
-    url(r'^user_timeline/?$', "user_timeline", name="twitter_timeline"),
+    #url(r'^user_timeline/?$', "user_timeline", name="twitter_timeline"),
 
-    url(r'^grabber/?$', "twitter_return", name="twitter_return"),
+    #url(r'^grabber/?$', "twitter_return", name="twitter_return"),
 
 )

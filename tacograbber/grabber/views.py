@@ -1,10 +1,15 @@
 # Create your views here.
 from django.http import HttpResponse
 from django.template import RequestContext
-from django.shortcuts import render_to_response
 from grabber.models import Bot, Current_Bot
 from grabber.forms import CreateTweet, BotTokenForm
 from twython import Twython, TwythonError
+from django.contrib.auth import authenticate, login, logout as django_logout
+from django.contrib.auth import get_user_model
+from django.http import HttpResponseRedirect
+from django.shortcuts import render_to_response
+from django.conf import settings
+from django.core.urlresolvers import reverse
 
 # standing global for current_bot
 yellow = ""
@@ -28,13 +33,21 @@ def generate(request):
         if form.is_valid():
             global yellow
             yellow = Bot.objects.get(id=request.POST.get('user'))
-            return begin_auth(request)
+            twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET)
+
+            # Request an authorization url to send the user to...
+            callback_url = request.build_absolute_uri(reverse('grabber.views.thanks'))
+            auth_props = twitter.get_authentication_tokens(callback_url)
+
+            # Then send them over there, durh.
+            request.session['request_token'] = auth_props
+            return HttpResponseRedirect(auth_props['auth_url'])
+
+
         else:
             print form.errors
     else:
         form = BotTokenForm()
-
-
     return render_to_response('grabber/generate.html',{'form': form}, context)
 
 def get_tokens(request):
@@ -83,14 +96,7 @@ def post_tweet(request):
 
 
 
-from django.contrib.auth import authenticate, login, logout as django_logout
-from django.contrib.auth import get_user_model
-from django.http import HttpResponseRedirect
-from django.shortcuts import render_to_response
-from django.conf import settings
-from django.core.urlresolvers import reverse
-from grabber.models import Current_Bot, Bot
-from twython import Twython
+
 
 User = get_user_model()
 
@@ -100,30 +106,30 @@ User = get_user_model()
 from twython_django_oauth.models import TwitterProfile
 
 
-def logout(request, redirect_url=settings.LOGOUT_REDIRECT_URL):
-    """
-        Nothing hilariously hidden here, logs a user out. Strip this out if your
-        application already has hooks to handle this.
-    """
-    django_logout(request)
-    return HttpResponseRedirect(request.build_absolute_uri(redirect_url))
+#def logout(request, redirect_url=settings.LOGOUT_REDIRECT_URL):
+#
+#        Nothing hilariously hidden here, logs a user out. Strip this out if your
+#        application already has hooks to handle this.
+#
+#    django_logout(request)
+#    return HttpResponseRedirect(request.build_absolute_uri(redirect_url))
 
 
-def begin_auth(request):
-    """The view function that initiates the entire handshake.
-
-    For the most part, this is 100% drag and drop.
-    """
-    # Instantiate Twython with the first leg of our trip.
-    twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET)
-
-    # Request an authorization url to send the user to...
-    callback_url = request.build_absolute_uri(reverse('twython_django_oauth.views.thanks'))
-    auth_props = twitter.get_authentication_tokens(callback_url)
-
-    # Then send them over there, durh.
-    request.session['request_token'] = auth_props
-    return HttpResponseRedirect(auth_props['auth_url'])
+#def begin_auth(request):
+#    """The view function that initiates the entire handshake.
+#
+#    For the most part, this is 100% drag and drop.
+#    """
+#    # Instantiate Twython with the first leg of our trip.
+#    twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET)#
+#
+#    # Request an authorization url to send the user to...
+#    callback_url = request.build_absolute_uri(reverse('grabber.views.thanks'))
+#    auth_props = twitter.get_authentication_tokens(callback_url)
+#
+#    # Then send them over there, durh.
+#    request.session['request_token'] = auth_props
+#    return HttpResponseRedirect(auth_props['auth_url'])
 
 
 def thanks(request, redirect_url=settings.LOGIN_REDIRECT_URL):
@@ -143,7 +149,7 @@ def thanks(request, redirect_url=settings.LOGIN_REDIRECT_URL):
     # Retrieve the tokens we want...
     authorized_tokens = twitter.get_authorized_tokens(request.GET['oauth_verifier'])
     global yellow
-    #weeter = Bot.objects.get(bot_name="emilyquark")
+    #tweeter = Bot.objects.get(bot_name="emilyquark")
 
 
     yellow.oauth_token = authorized_tokens['oauth_token']
@@ -180,4 +186,4 @@ def user_timeline(request):
     return render_to_response('tweets.html', {'tweets': user_tweets})
 
 def twitter_return(request):
-    return render_to_response('grabber/index.html')
+    return render_to_response('grabber/generate.html')

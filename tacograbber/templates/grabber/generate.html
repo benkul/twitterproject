@@ -5,8 +5,8 @@
 
 {% block body_block %}
                     <div>
-        {{ bot_authorized }}
-        <form id="BotTokenForm" method="post" action="/get_tokens/">
+        {{ thank_you_message }}
+        <form id="BotTokenForm" method="post" action="/grabber/thanks/">
         {% csrf_token %}
         {% for hidden in form.hidden_fields %}
             {{ hidden }}
