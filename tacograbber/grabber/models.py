@@ -48,7 +48,7 @@ class Bot(models.Model):
 
 class Current_Bot(models.Model):
     user = models.ForeignKey('Bot')
-    
+
 
     def __unicode__(self):
         return self.user.bot_name

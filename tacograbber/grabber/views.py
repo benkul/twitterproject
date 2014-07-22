@@ -4,6 +4,10 @@ from django.template import RequestContext
 from django.shortcuts import render_to_response
 from grabber.models import Bot, Current_Bot
 from grabber.forms import CreateTweet
+from twython import Twython, TwythonError
+
+#from django.contrib.auth import get_user_model
+#User = get_user_model()
 
 
 def index(request):
@@ -38,9 +42,16 @@ def create_tweet(request):
         if form.is_valid():
             form.save(commit=True)
             message = request.POST.get('tweeted')
-            currently_tweeting = request.POST.get('user')
+            #tweeter = request.POST.get('user')
+            tweeter = Bot.objects.get(id=request.POST.get('user'))
             print message
-            print currently_tweeting
+            #print tweeter
+            twitter = Twython(tweeter.api, tweeter.api_secret,
+                      tweeter.oauth_token, tweeter.oauth_secret)
+            try:
+                twitter.update_status(status=message)
+            except TwythonError as e:
+                print e
             return post_tweet(request)
         else:
             print form.errors
