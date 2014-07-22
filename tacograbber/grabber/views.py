@@ -3,11 +3,10 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 from grabber.models import Bot, Current_Bot
-from grabber.forms import CreateTweet
+from grabber.forms import CreateTweet, BotTokenForm
 from twython import Twython, TwythonError
 
-#from django.contrib.auth import get_user_model
-#User = get_user_model()
+
 
 
 def index(request):
@@ -24,7 +23,24 @@ def about(request):
 
 def generate(request):
     context = RequestContext(request)
-    return render_to_response('grabber/generate.html', context)
+    if request.method == 'POST':
+        form = BotTokenForm(request.POST)
+        if form.is_valid():
+
+            return "pizza"
+        else:
+            print form.errors
+    else:
+        form = BotTokenForm()
+
+
+    return render_to_response('grabber/generate.html',{'form': form}, context)
+
+def get_tokens(request):
+    context = RequestContext(request)
+    context_dict = {'thank_you_message' : "Tokens arrived on time!"}
+    return render_to_response('grabber/index.html', context_dict, context)
+
 
 def bot_profile(request, bot_name):
     context = RequestContext(request)
@@ -40,12 +56,10 @@ def create_tweet(request):
     if request.method == 'POST':
         form = CreateTweet(request.POST)
         if form.is_valid():
-            form.save(commit=True)
             message = request.POST.get('tweeted')
-            #tweeter = request.POST.get('user')
+
             tweeter = Bot.objects.get(id=request.POST.get('user'))
-            print message
-            #print tweeter
+
             twitter = Twython(tweeter.api, tweeter.api_secret,
                       tweeter.oauth_token, tweeter.oauth_secret)
             try:

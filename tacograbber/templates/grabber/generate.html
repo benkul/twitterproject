@@ -5,6 +5,18 @@
 
 {% block body_block %}
                     <div>
+        {{ bot_authorized }}
+        <form id="BotTokenForm" method="post" action="/get_tokens/">
+        {% csrf_token %}
+        {% for hidden in form.hidden_fields %}
+            {{ hidden }}
+        {% endfor %}
 
+        {% for field in form.visible_fields %}
+            {{ field.errors }}
+            {{ field.help_text }}
+            {{ field }}
+        {% endfor %}
+            <input type="submit" name="submit" value="Generate Tokens for Bot" />
                     </div>
 {% endblock %}
