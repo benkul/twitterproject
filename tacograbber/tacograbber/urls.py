@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-
+from grabber import views
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^grabber/', include('grabber.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^twython/', include('twython_django_oauth.urls')),
+    url(r'^post_tweet/$', views.create_tweet, name="create_tweet"),
 )
 
 #if settings.DEBUG:

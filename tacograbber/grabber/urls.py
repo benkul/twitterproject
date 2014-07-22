@@ -8,4 +8,6 @@ urlpatterns = patterns('',
                     url(r'^about/$', views.about, name='about'),
                     url(r'^generate/$', views.generate, name='generate'),
                     url(r'^about/(?P<bot_name>\w+)/$', views.bot_profile, name='bot_profile'),
+
+
 )

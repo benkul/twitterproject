@@ -2,61 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3702176-f75b-4690-a3ed-d35b398ecffc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\admin_actions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\api.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\auth_backends.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\auth_urls.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\canvas.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\connect.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\context_processors.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\decorators.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\example_views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\fixtures\users.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\forms.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\management\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\management\commands\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\management\commands\base.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\management\commands\extend_tokens.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\management\commands\retry_open_graph_shares.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\middleware.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\migrations\0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\model_managers.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\registration_backends.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\registration_views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\settings.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\signals.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\css\facebook.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\images\facebook_close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\images\facebook_loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\images\facebook_login.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\js\facebook.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\static\django_facebook\js\statictest.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\tasks.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\_canvas_base.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\_facebook_js.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\canvas_redirect.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\connect.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\example.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\my_style.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\page_tab.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templates\django_facebook\registration.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\templatetags\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\convert_json.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\forms.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\mocks.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\sample_user_data.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\test_utils\testcases.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\urls.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\utils.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\twitterproject\tacograbber\django_facebook\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/forms.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/models.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/urls.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" afterPath="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/views.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TwitterCommunity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,43 +35,36 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacograbber/grabber/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+            <state line="11" column="19" selection-start="264" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/views.py">
+        <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="7" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1768">
-              <folding />
+            <state line="42" column="36" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="1003">
+              <folding>
+                <element signature="e#26#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1054">
+            <state line="50" column="4" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.76988155" vertical-offset="378" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
+        <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="28" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1598">
+            <state line="15" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -127,7 +73,36 @@
       <file leaf-file-name="botprofile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+            <state line="8" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="47" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacograbber/grabber/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -136,8 +111,10 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-              <folding />
+            <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,9 +145,7 @@
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/navbar.html" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/css/main.css" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/css/base.css" />
-        <option value="$PROJECT_DIR$/tacograbber/grabber/forms.py" />
         <option value="$PROJECT_DIR$/tacograbber/templates/base.html" />
-        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" />
         <option value="$PROJECT_DIR$/tacograbber/static/css/bootstrap-fluid-adj.css" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/generate.html" />
         <option value="$PROJECT_DIR$/tacograbber/static/css/base.css" />
@@ -178,7 +153,6 @@
         <option value="$PROJECT_DIR$/tacograbber/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/about.html" />
-        <option value="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/admin.py" />
         <option value="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" />
@@ -187,11 +161,14 @@
         <option value="$PROJECT_DIR$/tacograbber/templates/tweets.html" />
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/views.py" />
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/urls.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
+        <option value="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
+        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" />
+        <option value="$PROJECT_DIR$/tacograbber/grabber/forms.py" />
+        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/views.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/models.py" />
-        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -256,6 +233,82 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twython_django_oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grabber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TwitterCommunity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tacograbber" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grabber" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,13 +472,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -433,14 +486,15 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -462,6 +516,64 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="7" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="21" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="28" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/setcurentbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357" />
@@ -498,7 +610,9 @@
     <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -545,7 +659,9 @@
     <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,11 +714,6 @@
         <state line="19" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/generate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="14" selection-start="160" selection-end="160" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255" />
@@ -633,13 +744,6 @@
         <state line="34" column="62" selection-start="1052" selection-end="1052" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="14" selection-start="4891" selection-end="4891" vertical-scroll-proportion="-13.076923" vertical-offset="1989" max-vertical-offset="3264" />
@@ -652,57 +756,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="60" selection-start="719" selection-end="719" vertical-scroll-proportion="0.5465313" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.6615905" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="7" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="28" selection-start="1521" selection-end="1521" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
@@ -715,6 +771,82 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="32" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="7" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="264" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="36" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="1003">
+          <folding>
+            <element signature="e#26#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="4" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.76988155" vertical-offset="378" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
