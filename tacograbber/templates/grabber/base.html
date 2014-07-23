@@ -7,7 +7,8 @@
     <link href="{% static 'css/bootstrap-fluid-adj.css' %}" rel="stylesheet">
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" media="screen">
     <link href="{% static 'css/bootstrap-responsive.css' %}" rel="stylesheet">
-
+    <script src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
         <title>Taco Grabber{% block title %} {% endblock%}</title>
 
 
@@ -21,13 +22,29 @@
 
         <div class="btn-group">
 
-          <a href="/grabber/"> <button type="button" class="btn btn-default">Home </button></a>
-          <a href="/grabber/about/">  <button type="button" class="btn btn-default"> About </button> </a>
-          <a href="/admin/">  <button type="button" class="btn btn-default"> Manage The Community  </button></a>
-          <a href="/grabber/generate/">   <button type="button" class="btn btn-default"> Generate OAUTH Tokens </button></a>
-          <a href="/grabber/editlikes/">   <button type="button" class="btn btn-default"> Edit Likes </button></a>
-
+          <a href="/grabber/"> <button type="button" class="btn btn-info">Home </button></a>
+           </div>
+        <div class="btn-group">
+          <a href="/grabber/about/">  <button type="button" class="btn btn-info"> About </button> </a>
         </div>
+
+          <div class="btn-group">
+              <button type="button" class="btn btn-info"> Manage the Community </button>
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+              <span class="caret"></span>
+                  <span class="sr-only"> </span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+              <li> <a href="/grabber/generate/">  Generate OAUTH Tokens</a>  </li>
+              <li> <a href="/grabber/editlikes/"> Edit General Likes </a>    </li>
+              <li> <a href="/grabber/editlikes/"> Edit Music Likes </a>      </li>
+              <li> <a href="/grabber/editlikes/"> Edit Movie Likes </a>      </li>
+            </ul>
+
+          </div>
+
+
+
 
 
 
@@ -39,8 +56,7 @@
         {% block body_block %} {% endblock %}
 
     </div>
-        <script src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
     </body>
 
 </html>
