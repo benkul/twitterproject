@@ -18,25 +18,26 @@
     <div>
         <h1>Taco Grabber</h1>
         {% block header %}
-        <ul class="nav nav-pills">
-                        <li><a href="/grabber/"> Home  </a></li>
-                        <li><a href="/grabber/about/">  About  </a></li>
-                        <li><a href="/admin/">  Manage The Community  </a></li>
-                        <li><a href="/grabber/generate/">  Generate OAUTH Tokens  </a></li>
-                        <li> <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
 
-                        <button type="submit" class="btn btn-default">Submit</button></div>
-                        </form>  </li>
-        </ul>
+        <div class="btn-group">
+
+          <a href="/grabber/"> <button type="button" class="btn btn-default">Home </button></a>
+          <a href="/grabber/about/">  <button type="button" class="btn btn-default"> About </button> </a>
+          <a href="/admin/">  <button type="button" class="btn btn-default"> Manage The Community  </button></a>
+          <a href="/grabber/generate/">   <button type="button" class="btn btn-default"> Generate OAUTH Tokens </button></a>
+
+
+        </div>
+
 
 
         {% endblock %}
     </div>
 
-    <div>
+    <div class="well well-lg">
+
         {% block body_block %} {% endblock %}
+
     </div>
         <script src="{% static 'js/jquery-2.0.3.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>

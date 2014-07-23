@@ -4,9 +4,13 @@
 
 
 {% block body_block %}
-                    <div>
-        {{ thank_you_message }}
+
+             {{ thank_you_message }}
+
+
+
         <form id="CreateTweet" method="post" action="/post_tweet/">
+
         {% csrf_token %}
         {% for hidden in form.hidden_fields %}
             {{ hidden }}
@@ -18,6 +22,12 @@
             {{ field }}
         {% endfor %}
         <input type="submit" name="submit" value="Create Tweet" />
-        </form>
-                    </div>
+
+
+            </form>
+
+
+
+
+
 {% endblock %}
