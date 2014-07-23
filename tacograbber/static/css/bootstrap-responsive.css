@@ -1107,3 +1107,8 @@
     overflow: visible !important;
   }
 }
+h1:hover (
+    color: #468847;
+    text-decoration: none;
+
+    }

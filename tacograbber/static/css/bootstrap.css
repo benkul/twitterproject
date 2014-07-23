@@ -746,6 +746,10 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
+
+
+
+
 h1 small,
 h2 small,
 h3 small,
@@ -765,7 +769,13 @@ h3 {
 
 h1 {
   font-size: 38.5px;
+
 }
+h1:hover (
+    color: #468847;
+    text-decoration: none;
+
+    }
 
 h2 {
   font-size: 31.5px;
