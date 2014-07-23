@@ -32,10 +32,10 @@ def generate(request):
 
     if request.method == 'POST':
         form = BotTokenForm(request.POST)
-        global yellow
-        yellow = Bot.objects.get(id=request.POST.get('user'))
-        if form.is_valid():
 
+        if form.is_valid():
+            global yellow
+            yellow = Bot.objects.get(id=request.POST.get('user'))
             twitter = Twython(settings.API, settings.API_SECRET)
 
             # Request an authorization url to send the user to...
@@ -69,13 +69,13 @@ def thanks(request, redirect_url=settings.LOGIN_REDIRECT_URL):
     oauth_token_secret = request.session['request_token']['oauth_token_secret']
     twitter = Twython(settings.API, settings.API_SECRET,
                       oauth_token, oauth_token_secret)
-
+    print twitter.__dict__
     # Retrieve the tokens we want...
     authorized_tokens = twitter.get_authorized_tokens(request.GET['oauth_verifier'])
 
     yellow.oauth_token = authorized_tokens['oauth_token']
-    yellow.user.oauth_secret = authorized_tokens['oauth_token_secret']
-    yellow.user.save()
+    yellow.oauth_secret = authorized_tokens['oauth_token_secret']
+    yellow.save()
     print yellow.oauth_token, yellow.oauth_secret
 
     return HttpResponseRedirect(redirect_url)

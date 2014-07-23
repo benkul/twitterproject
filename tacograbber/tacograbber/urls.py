@@ -19,6 +19,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^twython/', include('twython_django_oauth.urls')),
     url(r'^post_tweet/$', views.create_tweet, name="create_tweet"),
+    url(r'^grabber/grabber/$', views.get_tokens, name="got_tokens"),
 
 )
 
