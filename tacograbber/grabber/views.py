@@ -177,4 +177,19 @@ def edit_likes(request):
 
     return render_to_response('grabber/editlikes.html', context_dict, context)
 
+def edit_movie(request):
+    context = RequestContext(request)
+    bot_list = Bot.objects.order_by('-name')
 
+    context_dict = {'like': bot_list}
+
+    return render_to_response('grabber/editmovie.html', context_dict, context)
+
+
+def edit_music(request):
+    context = RequestContext(request)
+    bot_list = Bot.objects.order_by('-name')
+
+    context_dict = {'like': bot_list}
+
+    return render_to_response('grabber/editmusic.html', context_dict, context)

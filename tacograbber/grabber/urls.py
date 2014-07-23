@@ -10,6 +10,8 @@ urlpatterns = patterns('',
                     url(r'^generate/?$', views.get_tokens, name="twitter_return"),
                     url(r'^thanks/?$', views.thanks, name="twitter_callback"),
                     url(r'^editlikes/$', views.edit_likes, name='edit_likes'),
+                    url(r'^editmovie/$', views.edit_movie, name='edit_movie'),
+                    url(r'^editmusic/$', views.edit_music, name='edit_music'),
 
 
 )
