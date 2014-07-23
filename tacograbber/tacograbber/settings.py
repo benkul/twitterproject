@@ -140,8 +140,8 @@ INSTALLED_APPS = (
     #'django_facebook'
 )
 #twitter specific
-TWITTER_KEY = 'MeDbWwKCGN2wuh0Z8LrIvhHtj'
-TWITTER_SECRET = 'ECgRA6bqI3NeveZrexwxpuB7IzWmPeInAzF7Ib5jZRt9wIHbRm'
+API = 'MeDbWwKCGN2wuh0Z8LrIvhHtj'
+API_SECRET = 'ECgRA6bqI3NeveZrexwxpuB7IzWmPeInAzF7Ib5jZRt9wIHbRm'
 
 LOGIN_URL='/twython/login'
 LOGOUT_URL='/twython/logout'

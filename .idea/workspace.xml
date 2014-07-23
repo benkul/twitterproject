@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3702176-f75b-4690-a3ed-d35b398ecffc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/urls.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" afterPath="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" afterPath="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/views.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/views.py" />
     </list>
     <ignored path="TwitterCommunity.iws" />
@@ -65,10 +64,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.33840948" vertical-offset="701" max-vertical-offset="3026">
+            <state line="79" column="0" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="3026">
               <folding>
                 <element signature="e#26#62#0" expanded="true" />
               </folding>
@@ -76,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3264">
+            <state line="145" column="26" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.37394246" vertical-offset="2244" max-vertical-offset="3264">
               <folding />
             </state>
           </provider>
@@ -161,10 +160,10 @@
         <option value="$PROJECT_DIR$/tacograbber/grabber/models.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/forms.py" />
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/urls.py" />
-        <option value="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
         <option value="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/generate.html" />
+        <option value="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/views.py" />
       </list>
     </option>
@@ -796,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/twython_django_oauth/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="5" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
@@ -851,10 +843,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.33840948" vertical-offset="701" max-vertical-offset="3026">
+        <state line="79" column="0" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="3026">
           <folding>
             <element signature="e#26#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="26" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.37394246" vertical-offset="2244" max-vertical-offset="3264">
+          <folding />
         </state>
       </provider>
     </entry>

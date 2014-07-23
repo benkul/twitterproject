@@ -29,12 +29,14 @@ def about(request):
 
 def generate(request):
     context = RequestContext(request)
+
     if request.method == 'POST':
         form = BotTokenForm(request.POST)
+        global yellow
+        yellow = Bot.objects.get(id=request.POST.get('user'))
         if form.is_valid():
-            global yellow
-            yellow = Bot.objects.get(id=request.POST.get('user'))
-            twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET)
+
+            twitter = Twython(settings.API, settings.API_SECRET)
 
             # Request an authorization url to send the user to...
             callback_url = request.build_absolute_uri(reverse('grabber.views.thanks'))
@@ -62,16 +64,14 @@ def thanks(request, redirect_url=settings.LOGIN_REDIRECT_URL):
     """
     # Now that we've got the magic tokens back from Twitter, we need to exchange
     # for permanent ones and store them...
+    global yellow
     oauth_token = request.session['request_token']['oauth_token']
     oauth_token_secret = request.session['request_token']['oauth_token_secret']
-    twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET,
+    twitter = Twython(settings.API, settings.API_SECRET,
                       oauth_token, oauth_token_secret)
 
     # Retrieve the tokens we want...
     authorized_tokens = twitter.get_authorized_tokens(request.GET['oauth_verifier'])
-    global yellow
-    #tweeter = Bot.objects.get(bot_name="emilyquark")
-
 
     yellow.oauth_token = authorized_tokens['oauth_token']
     yellow.user.oauth_secret = authorized_tokens['oauth_token_secret']
