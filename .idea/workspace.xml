@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3702176-f75b-4690-a3ed-d35b398ecffc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-fluid-adj.css" afterPath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-fluid-adj.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/tacograbber/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/tacograbber/static/css/bootstrap.min.css" />
     </list>
     <ignored path="TwitterCommunity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,7 +48,7 @@
       <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="926" selection-end="926" vertical-scroll-proportion="0.50442475" vertical-offset="140" max-vertical-offset="748">
+            <state line="31" column="13" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.6849558" vertical-offset="140" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -905,7 +900,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="926" selection-end="926" vertical-scroll-proportion="0.50442475" vertical-offset="140" max-vertical-offset="748">
+        <state line="31" column="13" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.6849558" vertical-offset="140" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
