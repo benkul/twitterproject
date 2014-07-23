@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3702176-f75b-4690-a3ed-d35b398ecffc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/editlikes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/about.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" afterPath="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/urls.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tacograbber/grabber/views.py" afterPath="$PROJECT_DIR$/tacograbber/grabber/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TwitterCommunity.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,21 +39,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/urls.py">
+      <file leaf-file-name="editlikes.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/editlikes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="67" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="16" column="26" selection-start="425" selection-end="425" vertical-scroll-proportion="0.48141593" vertical-offset="0" max-vertical-offset="565">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="176" column="0" selection-start="6046" selection-end="6046" vertical-scroll-proportion="0.0" vertical-offset="2571" max-vertical-offset="3162">
               <folding>
-                <element signature="e#0#51#0" expanded="true" />
+                <element signature="e#26#62#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.7221239" vertical-offset="102" max-vertical-offset="867">
+            <state line="28" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-14.384615" vertical-offset="102" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -60,15 +72,6 @@
         <entry file="file://$PROJECT_DIR$/tacograbber/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1074" column="7" selection-start="14812" selection-end="14812" vertical-scroll-proportion="100.80769" vertical-offset="20879" max-vertical-offset="105111">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="botprofile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="549" selection-end="549" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -138,7 +141,6 @@
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/css/base.css" />
         <option value="$PROJECT_DIR$/tacograbber/templates/base.html" />
         <option value="$PROJECT_DIR$/tacograbber/static/css/base.css" />
-        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/about.html" />
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/models.py" />
         <option value="$PROJECT_DIR$/tacograbber/grabber/admin.py" />
         <option value="$PROJECT_DIR$/tacograbber/setcurentbot.py" />
@@ -151,8 +153,6 @@
         <option value="$PROJECT_DIR$/tacograbber/twython_django_oauth/urls.py" />
         <option value="$PROJECT_DIR$/tacograbber/tacograbber/settings.py" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/generate.html" />
-        <option value="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
-        <option value="$PROJECT_DIR$/tacograbber/grabber/views.py" />
         <option value="$PROJECT_DIR$/tacograbber/tacograbber/urls.py" />
         <option value="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.css" />
         <option value="$PROJECT_DIR$/tacograbber/static/css/bootstrap-responsive.min.css" />
@@ -161,7 +161,11 @@
         <option value="$PROJECT_DIR$/tacograbber/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/index.html" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html" />
+        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/about.html" />
         <option value="$PROJECT_DIR$/tacograbber/templates/grabber/base.html" />
+        <option value="$PROJECT_DIR$/tacograbber/grabber/urls.py" />
+        <option value="$PROJECT_DIR$/tacograbber/grabber/views.py" />
+        <option value="$PROJECT_DIR$/tacograbber/templates/grabber/editlikes.html" />
       </list>
     </option>
   </component>
@@ -549,13 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1054">
@@ -740,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1054">
@@ -766,13 +756,6 @@
     <entry file="file://$PROJECT_DIR$/tacograbber/grabber/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
@@ -814,37 +797,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/generate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="71" selection-start="221" selection-end="221" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0" vertical-offset="884" max-vertical-offset="3026">
-          <folding>
-            <element signature="e#26#62#0" expanded="true" />
-            <marker date="1406087782660" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/tacograbber/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="67" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,23 +841,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/index.html">
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/generate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="273" selection-end="273" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="646">
+        <state line="8" column="71" selection-start="221" selection-end="221" vertical-scroll-proportion="0.24070796" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="549" selection-end="549" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
+        <state line="14" column="46" selection-start="273" selection-end="273" vertical-scroll-proportion="0.32389382" vertical-offset="55" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.7221239" vertical-offset="102" max-vertical-offset="867">
+        <state line="28" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-14.384615" vertical-offset="102" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.80541456" vertical-offset="357" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.34517765" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/botprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="549" selection-end="549" vertical-scroll-proportion="0.36106196" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="939" selection-end="939" vertical-scroll-proportion="-10.461538" vertical-offset="17" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/grabber/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="0" selection-start="6046" selection-end="6046" vertical-scroll-proportion="0.0" vertical-offset="2571" max-vertical-offset="3162">
+          <folding>
+            <element signature="e#26#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tacograbber/templates/grabber/editlikes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="425" selection-end="425" vertical-scroll-proportion="0.48141593" vertical-offset="0" max-vertical-offset="565">
           <folding />
         </state>
       </provider>

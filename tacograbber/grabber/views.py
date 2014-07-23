@@ -1,7 +1,7 @@
 # Create your views here.
 from django.http import HttpResponse
 from django.template import RequestContext
-from grabber.models import Bot, Current_Bot
+from grabber.models import Bot, Current_Bot, Movie_Seed, Music_Seed, Sports_Seed
 from grabber.forms import CreateTweet, BotTokenForm
 from twython import Twython, TwythonError
 from django.contrib.auth import authenticate, login, logout as django_logout
@@ -163,10 +163,18 @@ from twython_django_oauth.models import TwitterProfile
 
 def user_timeline(request):
     """An example view with Twython/OAuth hooks/calls to fetch data about the user in question."""
-    user = request.user.twitterprofile
+    Bot = request.user.twitterprofile
     twitter = Twython(settings.TWITTER_KEY, settings.TWITTER_SECRET,
                       Current_Bot.user.oauth_token, Current_Bot.user.oauth_secret)
     user_tweets = twitter.get_home_timeline()
     return render_to_response('tweets.html', {'tweets': user_tweets})
+
+def edit_likes(request):
+    context = RequestContext(request)
+    bot_list = Bot.objects.order_by('-name')
+
+    context_dict = {'like': bot_list}
+
+    return render_to_response('grabber/editlikes.html', context_dict, context)
 
 

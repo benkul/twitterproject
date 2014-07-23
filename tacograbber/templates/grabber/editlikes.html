@@ -1,0 +1,21 @@
+{% extends 'grabber/base.html' %}
+
+{% block title %}{% endblock %}
+
+
+{% block body_block %}
+
+                <h2>Edit Bot Likes</h2>
+                <div>
+                {% if like %}
+                        <ul>
+                            {% for item in like %}
+                            <li> {{ item.sports_seed }} </li>
+
+                            {% endfor %}
+                        </ul>
+                {% else %}
+                            Turns out nobody likes anything... le sad
+                    {% endif %}
+                    </div>
+{% endblock %}

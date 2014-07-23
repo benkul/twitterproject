@@ -9,6 +9,7 @@ urlpatterns = patterns('',
                     url(r'^about/(?P<bot_name>\w+)/$', views.bot_profile, name='bot_profile'),
                     url(r'^generate/?$', views.get_tokens, name="twitter_return"),
                     url(r'^thanks/?$', views.thanks, name="twitter_callback"),
+                    url(r'^editlikes/$', views.edit_likes, name='edit_likes'),
 
 
 )
