@@ -10,7 +10,10 @@
                 {% if like %}
                         <ul>
                             {% for item in like %}
-                            <li> {{ item.music_seed }} </li>
+                            <div class="btn-group">
+                            <button type="button" class="btn btn-default">{{ item.name }} </button> </div>
+                                <div><button type="button" class="btn btn-default">{{ item.see_music }}
+                                    <span class="caret"> </span> </button></div>
 
                             {% endfor %}
                         </ul>
